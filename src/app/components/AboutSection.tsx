@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaPaperPlane } from "react-icons/fa";
 
 // Define types for the conversation messages
@@ -11,14 +11,13 @@ const AboutSection = () => {
   const [conversation, setConversation] = useState<Message[]>([]);
   const [userInput, setUserInput] = useState<string>("");
   const [isTyping, setIsTyping] = useState<boolean>(false);
-  const [typingMessage, setTypingMessage] = useState<string>("");
 
   const predefinedResponses: Record<string, string | JSX.Element> = {
     skills: "Syafiq is skilled in fullstack development including frontend framework such as React and backend such as ExpressJs. " + 
     "He has spearheaded multiple automation pipelines via Python and VBA as well and is proficient in managing complex data-related projects with multiple level of stakeholders. ",
     experiences: "Syafiq has worked/interned as a software engineer intern, data analyst, pre-sales tech consultant and a business analyst in various roles. He has presented multiple tech solutions and Proof-Of-Concept, particularly for automation, working with cross-functional stakeholders.",
     funny: "He kept hitting into trees during his runs.",
-    interesting: "Syafiq likes to run after midnight and rewatches Harry Potter and 2000s movies like High School Musical and Disturbia to get the nostalgic vibes. He also almmost fall off a mountain during winter, and is currently trying to learn Thai.",
+    interesting: "Syafiq likes to run after midnight and rewatches Harry Potter and 2000s movies like High School Musical and Disturbia to get the nostalgic vibes. He also almost fell off a mountain during winter, and is currently trying to learn Thai.",
     fallback: (
       <>
         SyafiqChat is under training and is down currently, click on recommended questions instead to test me. DM him here:{" "}
@@ -36,22 +35,18 @@ const AboutSection = () => {
 
   const simulateTyping = (message: string | JSX.Element) => {
     setIsTyping(true);
-    setTypingMessage(""); // Reset typing message
 
-    // Simulate typing effect for string messages only
     if (typeof message === "string") {
       let index = 0;
       const interval = setInterval(() => {
-        setTypingMessage((prev) => prev + message[index]);
         index++;
         if (index === message.length) {
           clearInterval(interval);
           setIsTyping(false);
           setConversation((prev) => [...prev, { sender: "bot", message }]);
         }
-      }, 10); // Type speed (50ms per character)
+      }, 10); // Adjust typing speed if needed
     } else {
-      // For JSX (like links), we skip typing and add the message directly
       setIsTyping(false);
       setConversation((prev) => [...prev, { sender: "bot", message }]);
     }

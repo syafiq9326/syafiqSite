@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "./Navbar";
 
 const HeroSection = () => {
     return (
@@ -59,7 +58,7 @@ const HeroSection = () => {
                         I build and talk tech while automating business processes across organizations and yap about life on Medium, talk to SyafiqChat below to know more and tap the icons
                         above to view more.
                         <br /><br />
-                        NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient, Dean's List.
+                        NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient, Dean&apos;s List.
                     </motion.p><br/>
                     <motion.a
                         href="/SyafiqResume.pdf" // Link to your resume PDF file in the public directory

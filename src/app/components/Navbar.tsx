@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaInstagram, FaMedium } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaMedium } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
