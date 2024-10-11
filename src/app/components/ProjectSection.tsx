@@ -17,7 +17,7 @@ const projects = [
     description: (
       <>
         A web-app for retail investors to track investments and cash, gain personalized investment recommendations and relevant news updates.
-        <br/><br/> Visit <a href="https://github.com/syafiq9326/IntelliFi" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
+        <br /><br /> Visit <a href="https://github.com/syafiq9326/IntelliFi" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
       </>
     ),
     tags: ["HTML", "CSS", "React", "Node.js", "Firecloud", "NOSQL"],
@@ -27,11 +27,11 @@ const projects = [
     title: "EventPro",
     description: (
       <>
-        An old-school event management system, where organizers and participants can manage their schedule, similar to EventBrite, but with the added feature of analyzing event sentiments and turnout rate, such as a Taylor Swift concert via a dashboard.
-        <br/><br/> Visit <a href="https://github.com/syafiq9326/EventPro" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
+        A classic event management system, where organizers and participants can manage their schedule, similar to EventBrite, but with the added feature of analyzing event sentiments and turnout rate, such as a Taylor Swift concert via a dashboard.
+        <br /><br /> Visit <a href="https://github.com/syafiq9326/EventPro" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
       </>
     ),
-    tags: ["JavaEE", "MYSQL" ,"Java Persistence API", "Netbeans", "Primefaces"],
+    tags: ["JavaEE", "MYSQL", "Java Persistence API", "Netbeans", "Primefaces"],
     image: "/fullEventPro.gif",
   },
   {
@@ -41,7 +41,8 @@ const projects = [
         A fund management platform with dual customer/admin systems, featuring KYC verification, fund curation by admin and investment for customer, fund rebalancing, and a GPT-4 integrated chatbot, leveraging RAG as well as a live support system.
       </>
     ),
-    tags: ["React", "Node", "Expressjs", "Firestore", "Nodemailer", "REST API", "NOSQL"], 
+
+    tags: ["React", "Node", "Expressjs", "Firestore", "Nodemailer", "REST API", "NOSQL"],
     image: "/logo.png",
   },
   {
@@ -59,7 +60,7 @@ const projects = [
     description: (
       <>
         A mini data science project, where I developed binary classification machine learning models to predict bank churn rate based on data from Kaggle, achieving over 86% accuracy.
-        <br/><br/> Visit <a href="https://github.com/syafiq9326/EventPro" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
+        <br /><br /> Visit <a href="https://github.com/syafiq9326/EventPro" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
       </>
     ),
     tags: ["Python", "Pandas", "Scikit-Learn"],
@@ -80,7 +81,8 @@ const ProjectSection = () => {
     >
       <h2 className="text-4xl font-bold text-white mb-12">Projects</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Projects Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -90,7 +92,7 @@ const ProjectSection = () => {
               src={project.image}
               alt={project.title}
               className="w-full h-auto object-cover"
-              />
+            />
             <h3 className="text-xl font-semibold text-white mb-2">
               {project.title}
             </h3>

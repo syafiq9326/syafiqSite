@@ -28,7 +28,7 @@ const experiences = [
     },
     {
         year: "May 2022 - Aug 2022",
-        title: "Data Analayst (Assistant Executive)",
+        title: "Data Analyst (Assistant Executive)",
         company: "Singapore Prison HQ",
         description:
             "Spearheaded an automation pipeline via Python (Pandas), to generate report data on excel, accounting for over 80% of manual effort for the Data & Analytics branch.",

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaPaperPlane } from "react-icons/fa";
+import { motion } from "framer-motion"; // Import Framer Motion
 
 // Define types for the conversation messages
 interface Message {
@@ -70,7 +71,13 @@ const AboutSection = () => {
   };
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-gray-800 via-gray-600 to-black px-4">
+    <motion.div
+      className="h-screen flex flex-col items-center justify-center bg-gradient-to-r from-gray-800 via-gray-600 to-black px-8 py-16"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: false }}
+    >
       {/* Chatbot Header */}
       <div className="flex flex-col items-center justify-center mb-10">
         <img
@@ -148,7 +155,7 @@ const AboutSection = () => {
           <FaPaperPlane />
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
