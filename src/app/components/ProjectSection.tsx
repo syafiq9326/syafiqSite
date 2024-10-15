@@ -53,7 +53,7 @@ const projects = [
       </>
     ),
     tags: ["HTML", "CSS", "Flask", "BS4", "Pandas", "HuggingFace", "Playwright", "TextBlob"],
-    image: "/logo.png",
+    image: "/scraper.gif",
   },
   {
     title: "Predicting Bank Churn Rate",
