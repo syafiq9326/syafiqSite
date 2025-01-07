@@ -14,7 +14,7 @@ const experiences = [
     },
     {
         year: "May 2023 - Aug 2023",
-        title: "Business Analyst (UI/UX, Enterprise)",
+        title: "Product Analyst (GoBusiness Portal)",
         company: "Ministry of Trade & Industry",
         description: (
             <>
@@ -38,10 +38,10 @@ const experiences = [
 
     {
         year: "Jul 2019 - Feb 2020",
-        title: "Tech Consultant (Pre-Sales)",
+        title: "Pre-Sales Engineer (APAC) Intern",
         company: "SAS Institute Pte Ltd",
         description:
-            "Developed proof-of-concept solutions for clients from text analytics to data visualizations, including a front-end site, demo presented to over 600 staff across APAC. ",
+            "Developed proof-of-concept solutions for clients (banking to government) from text analytics to data visualizations, including a front-end site, demo presented to over 600 staff across APAC. ",
         tags: ["Python", "SAS Viya", "D3.js", "HTML", "CSS", "REST API"],   
         logo: "/saslog-modified.png",
     },

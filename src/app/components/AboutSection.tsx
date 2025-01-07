@@ -16,7 +16,7 @@ const AboutSection = () => {
   const predefinedResponses: Record<string, string | JSX.Element> = {
     skills: "Syafiq is skilled in fullstack development including frontend framework such as React and backend such as ExpressJs. " + 
     "He has spearheaded multiple automation pipelines via Python and VBA as well and is proficient in managing complex data-related projects with multiple level of stakeholders. ",
-    experiences: "Syafiq has worked/interned as a software engineer intern, data analyst, pre-sales tech consultant and a business analyst in various roles. He has presented multiple tech solutions and Proof-Of-Concept, particularly for automation, working with cross-functional stakeholders.",
+    experiences: "Syafiq has worked/interned as a software engineer intern, data analyst, pre-sales engineer and a product analyst in various companies. He has presented multiple tech solutions and Proof-Of-Concept, particularly for automation, working with cross-functional stakeholders.",
     funny: "He kept hitting into trees during his runs.",
     interesting: "Syafiq likes to run after midnight and rewatches Harry Potter and 2000s movies like High School Musical and Disturbia to get the nostalgic vibes. He also almost fell off a mountain during winter, and is currently trying to learn Thai.",
     fallback: (
