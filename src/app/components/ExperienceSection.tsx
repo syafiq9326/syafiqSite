@@ -38,7 +38,7 @@ const experiences = [
 
     {
         year: "Jul 2019 - Feb 2020",
-        title: "Pre-Sales Engineer (APAC) Intern",
+        title: "Pre-Sales Engineer (APAC) Intern    ",
         company: "SAS Institute Pte Ltd",
         description:
             "Developed proof-of-concept solutions for clients (banking to government) from text analytics to data visualizations, including a front-end site, demo presented to over 600 staff across APAC. ",

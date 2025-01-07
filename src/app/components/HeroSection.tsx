@@ -61,7 +61,7 @@ const HeroSection = () => {
                         NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient, Dean&apos;s List.
                     </motion.p><br/>
                     <motion.a
-                        href="/Syafiq_Resume.pdf" // Link to your resume PDF file in the public directory
+                        href="/Syafiq_Resume_25Latest.pdf" // Link to your resume PDF file in the public directory
                         download="SyafiqResume.pdf" // Name for the downloaded file
                         className="bg-white text-black px-6 py-3 rounded-full mt-6 font-bold hover:bg-gray-300 transition"
                         initial={{ scale: 0.8, opacity: 0 }}
