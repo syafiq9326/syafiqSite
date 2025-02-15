@@ -55,13 +55,14 @@ const HeroSection = () => {
                         transition={{ duration: 1, delay: 0.4 }}
                         viewport={{ once: false }}
                     >
-                        I build and talk tech while automating business processes across organizations and yap about life on Medium, talk to SyafiqChat below to know more and tap the icons
-                        above to view more.
+                        I drive technology adoption across businesses covering multiple domains from banking to healthtech, while yapping about life on Medium. Chat with SyafiqChat below to learn more, tap the icons above to view more.
                         <br /><br />
-                        NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient, Dean&apos;s List.
+                        {/* NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient, Dean&apos;s List. */}
+                        NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient.
+
                     </motion.p><br/>
                     <motion.a
-                        href="/Syafiq_Resume_25Latest.pdf" // Link to your resume PDF file in the public directory
+                        href="/Syafiq_Resume_portfolio.pdf" // Link to your resume PDF file in the public directory
                         download="SyafiqResume.pdf" // Name for the downloaded file
                         className="bg-white text-black px-6 py-3 rounded-full mt-6 font-bold hover:bg-gray-300 transition"
                         initial={{ scale: 0.8, opacity: 0 }}
