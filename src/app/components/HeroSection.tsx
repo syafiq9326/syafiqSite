@@ -55,7 +55,7 @@ const HeroSection = () => {
                         transition={{ duration: 1, delay: 0.4 }}
                         viewport={{ once: false }}
                     >
-                        I drive technology adoption across businesses covering multiple domains from banking to healthtech, while yapping about life on Medium. Chat with SyafiqChat below to learn more, tap the icons above to view more.
+                        I drive technology adoption across businesses, while yapping about life on Medium. Chat with SyafiqChat below to learn more, tap the icons above to view more.
                         <br /><br />
                         {/* NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient, Dean&apos;s List. */}
                         NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient.

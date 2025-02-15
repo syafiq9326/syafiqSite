@@ -7,7 +7,7 @@ const experiences = [
         title: "Software Engineer Intern",
         company: "Crédit Agricole Investment Bank",
         description:
-            " Engineered scalable KYC batch pipeline (file hosted on AWS S3) via Java Spring, migrated C# and SQL to accelerate institutional investors onboarding, gained functional knowledge on EU trading market.",
+            " Engineered scalable KYC batch pipeline (files hosted on AWS S3) via Java Spring, migrated C# and SQL to accelerate institutional investors onboarding, gained functional knowledge on EU trading market.",
         tags: ["Java Spring Boot",  "Spring Batch", "Angular", "MYSQL", "AWS S3", "Jenkins", "Gitlab", "SSIS", "C#", "Know-Your-Customer"],
         logo: "/cacrop.png",
 
@@ -17,7 +17,7 @@ const experiences = [
         title: "Software Engineer Intern",
         company: "Synapxe Pte Ltd",
         description:
-            "Led POC on web scraping via BS4, HuggingFace deployed on Flask, projected 50% accelerated intel generation. Spearheaded multiple VBA automation pipelines for a 50 pax procurement department.",
+            "Led POC on web scraping via BS4, HuggingFace deployed on Flask, projected 50% accelerated intel generation. Spearheaded multiple VBA automation pipelines for a 50 pax procurement department, presented to C-suite management level.",
         tags: ["Javascript",  "VBA", "Procurement", "Data Analytics", "Flask", "TextBlob", "Pandas", "Beautiful Soup", "Playwright", "Project Management"],
         logo: "/synapxe.png",
 
