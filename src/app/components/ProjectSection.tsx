@@ -35,7 +35,7 @@ const projects = [
     image: "/fullEventPro.gif",
   },
   {
-    title: "Ignite (In Progress)",
+    title: "Ignite",
     description: (
       <>
         A fund management platform with dual customer/admin systems, featuring KYC verification, fund curation by admin and investment for customer, fund rebalancing, and a GPT-4 integrated chatbot, leveraging RAG as well as a live support system.
