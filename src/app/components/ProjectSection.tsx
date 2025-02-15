@@ -17,7 +17,7 @@ const projects = [
     description: (
       <>
         A web-app for retail investors to track investments and cash, gain personalized investment recommendations and relevant news updates.
-        <br /><br /> Visit <a href="https://github.com/syafiq9326/IntelliFi" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>.
+        {/* <br /><br /> Visit <a href="https://github.com/syafiq9326/IntelliFi" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">here</a>. */}
       </>
     ),
     tags: ["HTML", "CSS", "React", "Node.js", "Firecloud", "NOSQL"],
@@ -43,10 +43,11 @@ const projects = [
     ),
 
     tags: ["React", "Node", "Expressjs", "Firestore", "Nodemailer", "REST API", "NOSQL"],
-    image: "/logo.png",
+    // image: "/logo.png",
+    image: "/externaldashboard.gif",
   },
   {
-    title: "FlaskScrape (In Progress)",
+    title: "FlaskScrape",
     description: (
       <>
         Scraping sites, classifying them into topics and sentiments via Transformers and Hugging Faces, deploying insights on a real-time dashboard hosted via Flask.
