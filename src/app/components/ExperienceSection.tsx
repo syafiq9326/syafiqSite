@@ -7,7 +7,7 @@ const experiences = [
         title: "Software Engineer Intern",
         company: "Crédit Agricole Investment Bank",
         description:
-            " Engineered scalable KYC batch pipeline (files hosted on AWS S3) via Java Spring, migrated C# and SQL to accelerate institutional investors onboarding, gained functional knowledge on EU trading market.",
+            " Engineered scalable KYC batch pipeline (files hosted on AWS S3) via Java Spring, migrated C# and SQL to accelerate institutional investors onboarding, gained functional knowledge on EU banking domain.",
         tags: ["Java Spring Boot",  "Spring Batch", "Angular", "MYSQL", "AWS S3", "Jenkins", "Gitlab", "SSIS", "C#", "Know-Your-Customer"],
         logo: "/cacrop.png",
 
