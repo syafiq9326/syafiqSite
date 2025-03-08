@@ -62,7 +62,7 @@ const HeroSection = () => {
 
                     </motion.p><br/>
                     <motion.a
-                        href="/Syafiq_Resume_portfolio.pdf" // Link to your resume PDF file in the public directory
+                        href="/Syafiq_Resume.pdf" // Link to your resume PDF file in the public directory
                         download="Syafiq_Resume.pdf" // Name for the downloaded file
                         className="bg-white text-black px-6 py-3 rounded-full mt-6 font-bold hover:bg-gray-300 transition"
                         initial={{ scale: 0.8, opacity: 0 }}
