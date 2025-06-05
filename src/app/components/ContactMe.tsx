@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaEnvelope, FaLinkedin } from "react-icons/fa"; // Email and LinkedIn icons
+// import { FaEnvelope, FaLinkedin } from "react-icons/fa"; // Email and LinkedIn icons
+import {FaLinkedin } from "react-icons/fa"; // Email and LinkedIn icons
 
 const ContactSection = () => {
   return (
