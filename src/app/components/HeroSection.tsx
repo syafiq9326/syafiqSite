@@ -61,7 +61,7 @@ const HeroSection = () => {
                         NUS Computing | TP-Course Gold Medalist, IMDA Excellence Award, Dell-Global B.V. Special Industry Recipient.
 
                     </motion.p><br/>
-                    <motion.a
+                    {/* <motion.a
                         href="/Syafiq_Resume.pdf" // Link to your resume PDF file in the public directory
                         download="Syafiq_Resume.pdf" // Name for the downloaded file
                         className="bg-white text-black px-6 py-3 rounded-full mt-6 font-bold hover:bg-gray-300 transition"
@@ -71,7 +71,7 @@ const HeroSection = () => {
                         viewport={{ once: false }}
                     >
                         Download Resume
-                    </motion.a>
+                    </motion.a> */}
                 </div>
             </div>
         </motion.div>
