@@ -15,14 +15,14 @@ const ContactSection = () => {
 
       <div className="flex space-x-8">
         {/* Gmail Icon - opens Gmail compose window in browser */}
-        <a
+        {/* <a
           href="https://mail.google.com/mail/?view=cm&fs=1&to=syafiq9326@gmail.com&su=We%20Are%20Keen%20to%20Connect&body=Hi%20Syafiq%2C%0D%0A%0D%0AWe%20are%20keen%20to%20discuss%20further%20opportunities%20with%20you."
           target="_blank"
           rel="noopener noreferrer"
           className="text-white text-5xl"
         >
           <FaEnvelope />
-        </a>
+        </a> */}
 
         {/* LinkedIn Icon - links to LinkedIn profile */}
         <a
