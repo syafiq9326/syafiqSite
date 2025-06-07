@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const experiences = [
     {
         year: "Jan 2025 - Jun 2025",
-        title: "Software Engineer Intern",
+        title: "Software Engineer",
         company: "Crédit Agricole Investment Bank",
         description:
             " Engineered scalable KYC batch pipeline (files hosted on AWS S3) via Java Spring, migrated C# (SSIS nodes) to SQL to accelerate institutional investors onboarding, and led full-stack Angular encryption app POC, gained functional knowledge on EU banking domain.",
@@ -14,7 +14,7 @@ const experiences = [
     },
     {
         year: "May 2024 - Oct 2024",
-        title: "Software Engineer Intern",
+        title: "Software Engineer",
         company: "Synapxe Pte Ltd",
         description:
             "Led POC on web scraping via BS4, HuggingFace deployed on Flask, projected 50% accelerated intel generation. Spearheaded multiple VBA automation pipelines for a 50 pax procurement department, presented to C-suite management level.",
@@ -48,7 +48,7 @@ const experiences = [
 
     {
         year: "Jul 2019 - Feb 2020",
-        title: "Pre-Sales Engineer (APAC) Intern    ",
+        title: "Pre-Sales Engineer (APAC)",
         company: "SAS Institute Pte Ltd",
         description:
             "Developed proof-of-concept solutions for clients (banking to government) from text analytics to data visualizations, including a front-end site, demo presented to over 600 staff across APAC. ",
