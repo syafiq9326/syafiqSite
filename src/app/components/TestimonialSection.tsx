@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa"; // For navigation arrows
 
 const testimonials = [
+   {
+    image: "/credit testimonial.png",
+  },
   {
     image: "/SAS.png", // Replace with actual testimonial image path
 
@@ -13,10 +16,8 @@ const testimonials = [
   },
   {
     image: "/mti.png",
-    // name: "Mark Johnson",
-    // role: "Lead Developer at TechCorp",
-    // feedback: "Syafiq’s dedication and knowledge made a significant difference in our project.",
   },
+ 
 
 ];
 
@@ -45,7 +46,7 @@ const TestimonialSection = () => {
       <div className="flex items-center mb-12">
         <h2 className="text-4xl font-bold text-white">Testimonials</h2>
       </div>
-      <img src="/companieslogo_bg_removed.png" alt="testimonial icon" className="w-25 h-20 ml-4" />
+      <img src="/companieslogo_bg_removed.png" alt="testimonial icon" className="w-25 h-20 ml-4" /><br/>
 
       <div className="relative flex items-center justify-center w-full max-w-3xl">
         {/* Arrow for Previous */}
