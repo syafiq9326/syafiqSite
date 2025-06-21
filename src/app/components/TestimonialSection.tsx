@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa"; // For navigation arrows
 
 const testimonials = [
-   {
-    image: "/credit testimonial.png",
-  },
   {
     image: "/SAS.png", // Replace with actual testimonial image path
 
+  },
+   {
+    image: "/credit testimonial.png",
   },
   {
     image: "/prison.png",
